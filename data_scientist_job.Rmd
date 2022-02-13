@@ -5,6 +5,31 @@ date: "2/2/2022"
 output: html_document
 ---
 
+
+
+# Contents
+
+**Click on link for quick view:**
+
+1. [Data overview](#data_overview)
+      - 1.1 [Fixing Car Data](#fixing_car)
+      
+2. [Car Data Visualization](#car_viz)  
+      - 2.1 [Car Length VS Car Width](#carlw)  
+      - 2.2 [Horsepoer and Car price](#carhp)  
+      - 2.3 [Horsepower VS MPG in highway](#carmh)  
+      - 2.4 [Horsepower VS MPG in city](#carch)  
+      - 2.5 [Drive wheel VS Weight](#cardw)  
+      - 2.6 [Drive wheel VS Weight based on aspiration](#cardwa) 
+      - 2.7 [Number of car per company](#carnb)  
+      - 2.8 [Car average price based on car company](#carpc)  
+      - 2.9 [Top 5 expensive car company](#cartpc)  
+      - 2.10 [Car Engine size density plot](#card)
+      - 2.10 [Price density plot based on car body type](#carpl)
+3. [Conclusion](#car_con)  
+      
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
