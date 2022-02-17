@@ -12,9 +12,9 @@ output: html_document
 **Click on link for quick view:**
 
 1. [Data overview](#data_overview)
-      - 1.1 [Fixing Car Data](#fixing_car)
+      - 1.1 [Fixing Job Data](#fixing_car)
       
-2. [Car Data Visualization](#car_viz)  
+2. [Job Data Visualization](#job_viz)  
       - 2.1 [Car Length VS Car Width](#carlw)  
       - 2.2 [Horsepoer and Car price](#carhp)  
       - 2.3 [Horsepower VS MPG in highway](#carmh)  
