@@ -38,12 +38,18 @@ library(readr)
 
 ## R Markdown
 
+# 1.Data overview<a name="data_overview"></a>
+
+
+
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
+# Read data and Inspect data
 ```{r jobs}
 data_sc_job <-read_csv("data/data_scientist_united_states_job_postings_jobspikr.csv")
+head(data_sc_job,10)
 ```
 
 ## Including Plots
@@ -56,7 +62,13 @@ summary(data_sc_job)
 
 
 ```{r}
-head(data_sc_job)
+(data_sc_job.info)
 ```
+### 1.1 Fixing the data <a name="fixing_data"></a>
+
+```{r}
+is.null(data_sc_job)
+```
+
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
